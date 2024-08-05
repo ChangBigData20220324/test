@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網站標題</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            margin: 0 ;
+        }
+        .header {
+            text-align: center;
+           
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .image-item {
+            margin: 10px;
+            text-align: center;
+            width: calc(100% - 1px); /* Adjust width for 0.5px margin */
+        }
+        .image-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .image-title {
+            margin-top: 5px;
+            font-size: 1.2em;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            position: relative;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>網站標題</h1>
+    </div>
+    <div class="container">
+        <div class="main-content">
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="test.jpg" alt="圖片2">
+                    <div class="image-title">圖片標題 2</div>
+                </div>
+                <!-- 可以添加更多圖片項目 -->
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>版權所有 &copy; 2024</p>
+    </div>
+</body>
+</html>
